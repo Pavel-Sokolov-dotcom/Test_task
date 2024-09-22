@@ -1,0 +1,56 @@
+/* style.css */
+
+/* Общие стили */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #f6f8fa;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+/* Список книг */
+ul {
+    list-style-type: none; /* Убираем стандартные маркеры списка */
+    padding: 0; /* Убираем отступы */
+}
+
+li {
+    background-color: #ffffff; /* Белый фон для элементов списка */
+    border: 1px solid #e1e4e8; /* Светло-серый бордер */
+    border-radius: 6px; /* Скругленные углы */
+    padding: 15px; /* Отступ внутри элемента списка */
+    margin-bottom: 10px; /* Отступ между элементами списка */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Легкая тень для эффекта глубины */
+}
+
+/* Стили для ссылок */
+a {
+    color: #0366d6; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+/* Стили для кнопок (если нужны) */
+button {
+    background-color: #28a745; /* Зеленый фон кнопки */
+    color: white; /* Белый текст кнопки */
+    border: none; /* Убираем стандартный бордер */
+    border-radius: 4px; /* Скругленные углы кнопки */
+    padding: 10px 15px; /* Отступы внутри кнопки */
+    cursor: pointer; /* Указываем курсор как указатель при наведении */
+}
+
+button:hover {
+    background-color: #218838; /* Темнее при наведении */
+}

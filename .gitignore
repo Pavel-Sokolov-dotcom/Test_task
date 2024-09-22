@@ -2,3 +2,7 @@ venv/
 *.pyc
 __pycache__/
 .DS_Storegi
+.env
+answers/
+.idea
+debug.log

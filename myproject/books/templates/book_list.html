@@ -1,0 +1,17 @@
+<!-- books/templates/book_list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book List</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'books/style.css' %}" type="text/css">
+</head>
+<body>
+    <h1>Books</h1>
+    <ul>
+        {% for book in books %}
+            <li>{{ book.title }} by {{ book.author }} ({{ book.published_date }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
