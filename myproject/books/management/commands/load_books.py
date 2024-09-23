@@ -7,7 +7,7 @@ class Command(BaseCommand):
     help = 'Load books from a CSV file into the database'
     def handle(self, *args, **kwargs):
         file_path = os.path.join(os.path.dirname(__file__), 'books.csv')
-        
+        # Контекстный менеджер открывает файл, цикл перебирает файл и добавляет данные в БД
         with open(file_path, newline='', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
             books = []
